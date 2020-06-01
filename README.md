@@ -1,6 +1,6 @@
 # Stock Market Co-movement Pre-clustering
 
-## Dataset Information:
+## Dataset Information
 The dataset is obtained from Free88.org: http://free88.org/klse.html
 
 This is a reformatted dataset which includes the end of day (EOD) stock market data from 26 April to 15 May 2018, from KLSE website on every weekday basis at 6:30pm.
@@ -931,4 +931,11 @@ display(df_clusters)
   </tbody>
 </table>
 </div>
+
+## References
+1) Stock market co-movement assessment using a three-phase clustering method: https://www.sciencedirect.com/science/article/abs/pii/S0957417413006404
+
+2) Time series symbolic discretization with SAX: https://github.com/seninp/saxpy
+
+3) kmodes: https://github.com/nicodv/kmodes
 
